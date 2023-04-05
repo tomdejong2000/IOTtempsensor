@@ -93,3 +93,5 @@ Upload and run the code to check if your pico w connects to the wifi.
 The last step if sending the sensor data to the thingsspeak API.
 Go to thingsspeak.com and create an account.
 After you have created an account navigate to "my channels" and create a new channel with 2 fields, 1 for humidity and 1 for temperature you dont need to worry about the rest.
+
+edit
