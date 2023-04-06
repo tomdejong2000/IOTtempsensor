@@ -5,18 +5,29 @@ This is a tutorial for a small IOT project with 2 parts.
 In the first part of this project we will connect a DHT22 temp and humidity sensor to a raspberry pi pico W to upload data to thingsspeak.com.
 The second part of this project we will build a small nodejs server to show data, set thresholds and recieve notifications for every device currently on your network. 
 
-Needed for this project:
+Demovideo:
+
+Pipeline :
+![pipeline](https://user-images.githubusercontent.com/32331945/230391536-3068e60a-67b2-443f-9216-c25ee96167f3.jpg)
+
+
+
+
+# Needed for this project:
  - Raspberry pi pico W (be sure it's a W version, regular pico does NOT have wifi and will not work)
  - micro usb cable
  - 3 jump wires
  - DHT22 sensor
  - a thingsspeak account
  - thonny
+
+# microcontroller
  
 Be sure your raspberry pi pico w is flashed with micropython.
 https://projects.raspberrypi.org/en/projects/get-started-pico-w/1
 
 First we will look at the wiring for this project.
+
 
 ![afbeelding](https://user-images.githubusercontent.com/32331945/223492712-90717580-716d-4fb3-bccb-0ea4415ebeab.png)
 
@@ -148,6 +159,7 @@ while True:
 Thats it.
 Atleast for the Pico W code.
 
+# webapp
 The second part of this project involves creating a small Node.js web application to set maximum and minimum thresholds for temperature and humidity. The application will send a notification when the values go beyond or fall below the set thresholds.
 
 First of all be sure you have NODE.JS installed. You can download the installer from https://nodejs.org/en .
