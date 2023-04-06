@@ -50,12 +50,6 @@ $(document).ready(function(){
             wishmaxhumidity = $('#maxhumidity').val();     
         }
         
-          // Get the values of the form fields
-        
-       
-        
-      
-          // Do something with the form data
         
 
     });
