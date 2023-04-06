@@ -8,6 +8,8 @@ The second part of this project we will build a small nodejs server to show data
 Demovideo:
 
 Pipeline :
+
+
 ![pipeline](https://user-images.githubusercontent.com/32331945/230391536-3068e60a-67b2-443f-9216-c25ee96167f3.jpg)
 
 
