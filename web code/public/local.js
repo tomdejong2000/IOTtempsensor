@@ -6,7 +6,7 @@ $(document).ready(function(){
     let wishminhumidity = -100
     let wishmaxhumidity = 100
     
-    let email
+    
     let temperature
     let humidity
 
