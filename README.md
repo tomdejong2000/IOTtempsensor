@@ -7,6 +7,8 @@ The second part of this project we will build a small nodejs server to show data
 
 Demovideo:
 
+https://youtu.be/IdHKc4FBJc0
+
 Pipeline :
 
 
